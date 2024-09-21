@@ -6,14 +6,17 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
+
 	<groupId>com.autorola</groupId>
 	<artifactId>home_assignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+
 	<name>home_assignment</name>
 	<description>home_assignment</description>
+
 	<url/>
 	<licenses>
 		<license/>
@@ -22,6 +25,7 @@
 		<developer/>
 	</developers>
 	<modules>
+		<module>web</module>
 		<module>data</module>
 		<module>service</module>
 	</modules>
@@ -62,6 +66,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<skip>true</skip>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>

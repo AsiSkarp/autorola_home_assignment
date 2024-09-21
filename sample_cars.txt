@@ -1,0 +1,101 @@
+{
+  "vin": "1HGCM82633A004352",
+  "make": "Honda",
+  "model": "Accord",
+  "firstRegistration": "2015-05-20T00:00:00",
+  "mileage": "75,000 km",
+  "color": "Black",
+  "transmission": "Automatic"
+}
+
+{
+  "vin": "1C4RJFAG5CC202000",
+  "make": "Jeep",
+  "model": "Grand Cherokee",
+  "firstRegistration": "2017-08-15T00:00:00",
+  "mileage": "85,000 km",
+  "color": "White",
+  "transmission": "Manual"
+}
+
+{
+  "vin": "2G4WF521651234567",
+  "make": "Buick",
+  "model": "Century",
+  "firstRegistration": "2003-03-10T00:00:00",
+  "mileage": "120,000 km",
+  "color": "Blue",
+  "transmission": "Automatic"
+}
+
+{
+  "vin": "3VW2K7AJ4FM256101",
+  "make": "Volkswagen",
+  "model": "Jetta",
+  "firstRegistration": "2019-02-25T00:00:00",
+  "mileage": "45,000 km",
+  "color": "Silver",
+  "transmission": "Manual"
+}
+
+{
+  "vin": "1FTFW1E55AKD25678",
+  "make": "Ford",
+  "model": "F-150",
+  "firstRegistration": "2018-09-10T00:00:00",
+  "mileage": "65,000 km",
+  "color": "Red",
+  "transmission": "Automatic"
+}
+
+{
+  "vin": "4T1BF1FK3FU015611",
+  "make": "Toyota",
+  "model": "Camry",
+  "firstRegistration": "2014-12-01T00:00:00",
+  "mileage": "110,000 km",
+  "color": "Grey",
+  "transmission": "Automatic"
+}
+
+{
+  "vin": "5NPE24AF8FH160230",
+  "make": "Hyundai",
+  "model": "Sonata",
+  "firstRegistration": "2020-06-17T00:00:00",
+  "mileage": "25,000 km",
+  "color": "Green",
+  "transmission": "Manual"
+}
+
+{
+  "vin": "2C3CDXBG6DH648350",
+  "make": "Dodge",
+  "model": "Charger",
+  "firstRegistration": "2021-01-12T00:00:00",
+  "mileage": "15,000 km",
+  "color": "Orange",
+  "transmission": "Automatic"
+}
+
+{
+  "vin": "JN8AS5MVXDW154129",
+  "make": "Nissan",
+  "model": "Rogue",
+  "firstRegistration": "2016-07-05T00:00:00",
+  "mileage": "80,000 km",
+  "color": "Yellow",
+  "transmission": "Automatic"
+}
+
+{
+  "vin": "JH4DA3340HS004951",
+  "make": "Acura",
+  "model": "Integra",
+  "firstRegistration": "2001-11-19T00:00:00",
+  "mileage": "150,000 km",
+  "color": "Purple",
+  "transmission": "Manual"
+}
+
+curl -X POST http://localhost:9090/api/cars -H "Content-Type: application/json" -d
